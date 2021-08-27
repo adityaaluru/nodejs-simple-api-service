@@ -1,0 +1,7 @@
+{
+  "appName": "Simple API Service",
+  "config": {
+    "listenerPort": 3000,
+    "enableAccessLogs": true
+  }
+}

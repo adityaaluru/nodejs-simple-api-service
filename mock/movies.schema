@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "numberInStock": {
+      "type": "number",
+      "minimum": 0
+    },
+    "dailyRentalRate": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10
+    },
+    "likedState": {
+      "type": "boolean"
+    },
+    "genre": {
+      "type": "object",
+      "properties": {
+        "_id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": [
+    "title",
+    "numberInStock",
+    "dailyRentalRate",
+    "likedState",
+    "genre"
+  ]
+}
