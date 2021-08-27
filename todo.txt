@@ -1,0 +1,4 @@
+1. implement the default router listening on '/' which publishes information of the runtime and registered routes
+2. implement additiona support to use S3 as the backend
+3. implement error handling and interceptors in the express middlware
+3. config schema valiations
